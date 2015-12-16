@@ -5,7 +5,7 @@
 | __Email__ | vinicius.m.negrao@gmail.com |
 | __License__ | Attribution 3.0 Unported (CC BY 3.0) |
 | __Profession__ | Web Designer, Web Developer, Game Designer, Game Programmer, Graphics Artist |
-| __Current Version__ | 1.0.1 |
+| __Current Version__ | 1.0.2 |
 
 # Changelog
 #### 1.0.0
