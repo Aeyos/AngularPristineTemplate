@@ -17,6 +17,13 @@
 >README updated
 * README updated
 
+
+#### 1.0.2
+>File updates
+* README updated
+* install.sh added
+* package.json added for npm install
+
 # Installation
 
 Clone the project to a directory and pull the contents
