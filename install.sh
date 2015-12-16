@@ -7,9 +7,9 @@ if [ "$UID" -ne "$ROOT_UID" ]; then
 else
 	npm -v >/dev/null 2>&1 || { echo >&2 "I require NPM but it's not installed.";exit 1; }
 	echo 'Checking BOWER...'
-	bower -v >/dev/null 2>&1 || { echo 'BOWER not found, installing ...'; npm install -g bower; }
+	bower -v >/dev/null 2>&1 || { echo 'BOWER not found, installing ...'; sudo npm install -g bower; }
 	echo 'Checking GULP...'
-	gulp -v >/dev/null 2>&1 || { echo 'GULP not found, installing ...'; npm install -g gulp; }
+	gulp -v >/dev/null 2>&1 || { echo 'GULP not found, installing ...'; sudo npm install -g gulp; }
 fi
 
 npm install
