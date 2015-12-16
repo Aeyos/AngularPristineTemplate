@@ -21,18 +21,34 @@
 
 Clone the project to a directory and pull the contents
 
-Download npm, it's very important D:
+####__Download npm, it's **VERY** important D:__
+
+MacOS / Linux installation script:
+
+Non-sudo
+```
+$ sudo npm install -g bower
+$ sudo npm install -g gulp
+$ sh install.sh
+```
+
+Sudo
+```
+$ sudo sh install.sh
+```
+
+### OR
 
 If you don't have __bower__ yet...
 
 ```
-$ npm install -g bower
+$ sudo npm install -g bower
 ```
 
 If you don't have __gulp__ yet...
 
 ```
-$ npm install -g gulp
+$ sudo npm install -g gulp
 ```
 
 Proceeding with the installation
@@ -45,7 +61,7 @@ $ bower install
 To kickoff
 
 ```
-$ gulp webserver
+$ gulp && gulp webserver
 ```
 
 Open your browser and navigate to **localhost**
