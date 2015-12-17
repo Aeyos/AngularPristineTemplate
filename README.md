@@ -5,7 +5,7 @@
 | __Email__ | vinicius.m.negrao@gmail.com |
 | __License__ | Attribution 3.0 Unported (CC BY 3.0) |
 | __Profession__ | Web Designer, Web Developer, Game Designer, Game Programmer, Graphics Artist |
-| __Current Version__ | 1.0.2 |
+| __Current Version__ | 1.0.3 |
 
 # Changelog
 #### 1.0.0
@@ -23,6 +23,19 @@
 * README updated
 * install.sh added
 * package.json added for npm install
+
+#### 1.0.3
+>Mass update
+* SASS support added
+* renamed partial index to home
+* added svg logo
+* added early svg paint directive
+* incremented js_extension.js
+* rewrote gulpfile.js
+* added gulp modules
+* added sass file to index.html
+* added images folder app/img
+* added sass and directives folder
 
 # Installation
 

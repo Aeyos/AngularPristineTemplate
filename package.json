@@ -1,12 +1,16 @@
 {
   "name": "apt",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "||| | --- | --- | | __Author__ | Vinícius Negrão | | __Email__ | vinicius.m.negrao@gmail.com | | __License__ | Attribution 3.0 Unported (CC BY 3.0) | | __Profession__ | Web Designer, Web Developer, Game Designer, Game Programmer, Graphics Artist | | __Current Version__ | 1.0.1 |",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
     "bower": "^1.7.1",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,21 @@
+#logo-svg polygon, #logo-svg path {
+  fill: #fff;
+  stroke: #fff; }
+
+#logo-svg svg {
+  height: 32px;
+  width: 32px;
+  top: -5px;
+  position: relative; }
+  #logo-svg svg :hover polygon, #logo-svg svg :hover path {
+    fill: #eee;
+    stroke: #eee; }
+
+#logo-svg-big svg {
+  height: 92px;
+  width: 92px;
+  position: relative; }
+
+#logo-svg-big :hover {
+  fill: #333;
+  stroke: #333; }

@@ -1,11 +1,12 @@
-angular.module('core').
-controller('coreController', ['$scope', '$rootScope', '$location', function ($scope, $rootScope, $location) {
-	/* -- Controller variables -- */
-	/* -- Scope variables -- */
+angular.module('core', [])
+.controller('coreController', ['$scope', '$rootScope', '$location', function ($scope, $rootScope, $location) {
+	/* -- Controller variables ----------------------------- */
+	/* -- Scope variables ---------------------------------- */
 	$scope.appName = 'Pristine Template';
-	/* -- Controller functions -- */
-	/* -- Controller RUN -- */
-	/* -- Controller Events -- */
+	/* -- Controller functions ----------------------------- */
+	/* -- Scope functions ---------------------------------- */
+	/* -- Controller run ----------------------------------- */
+	/* -- Events ------------------------------------------- */
 	$rootScope.$on('$routeChangeSuccess', function (args) {
 		$scope.path = $location.path().split('/')[1];
 		$scope.breadCrumb = [{name:'Home',url:'#'}];
