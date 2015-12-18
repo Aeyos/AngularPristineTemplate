@@ -13,7 +13,6 @@ angular.module('directives')
 				window.svg = $scope.svgobj = svg.match(/<svg[\s\S]*svg>/g)[0];
 				$scope.$apply();
 			}, 'text');
-			console.log($scope.src);
 		}
 	}
 })

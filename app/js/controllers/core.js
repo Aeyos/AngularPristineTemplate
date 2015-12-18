@@ -7,6 +7,9 @@ angular.module('core', [])
 	/* -- Scope functions ---------------------------------- */
 	/* -- Controller run ----------------------------------- */
 	/* -- Events ------------------------------------------- */
+	$rootScope.$on('$routeChangeStart', function (args) {
+		// console.log('Navigating to another page', args);
+	});
 	$rootScope.$on('$routeChangeSuccess', function (args) {
 		$scope.path = $location.path().split('/')[1];
 		$scope.breadCrumb = [{name:'Home',url:'#'}];
@@ -16,5 +19,8 @@ angular.module('core', [])
 			paths += pathFragments[i] + '/';
 			$scope.breadCrumb.push({name:pathFragments[i].capitalize(),url:paths});
 		}
+	});
+	$rootScope.$on("$routeChangeError", function (args) {
+		console.error("Failed to load this page", args);
 	});
 }]);
