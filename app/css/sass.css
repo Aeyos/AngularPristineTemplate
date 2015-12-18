@@ -1,3 +1,34 @@
+.svg-obj-directive {
+  display: inline-block; }
+
+svg-object {
+  display: inline-block; }
+  svg-object svg {
+    width: 100%;
+    height: 100%; }
+
+footer {
+  color: #888; }
+  footer hr {
+    border: 1px inset #555; }
+  footer b {
+    color: #afff00;
+    font-weight: 400; }
+  footer u {
+    border-bottom: 1px solid #afff00;
+    text-decoration: none; }
+  footer polygon, footer path {
+    fill: #fff;
+    stroke: #fff; }
+  footer .container {
+    padding-top: 20px; }
+  footer .bigfoot {
+    min-height: 500px;
+    border-radius: 0px; }
+  footer .big-svg {
+    width: 92px;
+    height: 92px; }
+
 #logo-svg polygon, #logo-svg path {
   fill: #fff;
   stroke: #fff; }

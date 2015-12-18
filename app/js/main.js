@@ -4,5 +4,7 @@ angular.module('main', [
 	'ngSanitize',
 	'core',
 	'directives',
-	'home'
+	'home',
+	'tags',
+	'stuff'
 ]);

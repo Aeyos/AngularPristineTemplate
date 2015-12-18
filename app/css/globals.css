@@ -1,7 +1,19 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	margin-top: 52px;
 }
 
+.content {
+	min-height: 90%;
+}
+
 .fullWidth {
 	width: 100%;
+}
+
+.text-center {
+	text-align: center;
 }

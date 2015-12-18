@@ -1,0 +1,29 @@
+footer {
+	color: #888;
+	hr {
+		border: 1px inset #555;
+	}
+	b {
+		color: rgb(175,255,0);
+		font-weight: 400;
+	}
+	u {
+		border-bottom: 1px solid #afff00;
+		text-decoration: none;
+	}
+	polygon, path {
+		fill: #fff;
+		stroke: #fff;
+	}
+	.container {
+		padding-top: 20px;
+	}
+	.bigfoot {
+		min-height: 500px;
+		border-radius: 0px;
+	}
+	.big-svg {
+		width: 92px;
+		height: 92px;
+	}
+}
