@@ -42,7 +42,7 @@
 * Page footer added
 
 #### 1.0.5
->Footer
+>REST API
 * REST API Service added with easy-to-setup routes and parameters
 * svgObject directive debug lines removed
 
