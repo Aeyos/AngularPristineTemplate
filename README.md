@@ -1,11 +1,11 @@
-# AngularPristineTemplate
+# Angular Pristine Template
 |||
 | --- | --- |
 | __Author__ | Vinícius Negrão |
 | __Email__ | vinicius.m.negrao@gmail.com |
 | __License__ | Attribution 3.0 Unported (CC BY 3.0) |
 | __Profession__ | Web Designer, Web Developer, Game Designer, Game Programmer, Graphics Artist |
-| __Current Version__ | 1.0.3 |
+| __Current Version__ | 1.0.5 |
 
 # Changelog
 #### 1.0.0
@@ -36,6 +36,15 @@
 * added sass file to index.html
 * added images folder app/img
 * added sass and directives folder
+
+#### 1.0.4
+>Footer
+* Page footer added
+
+#### 1.0.5
+>Footer
+* REST API Service added with easy-to-setup routes and parameters
+* svgObject directive debug lines removed
 
 # Installation
 

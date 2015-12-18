@@ -34,11 +34,11 @@ gulp.task('sass:watch', function () {
 	gulp.watch('app/sass/**/*.scss', ['sass']);	// Watch all SCSS files for changes
 });
 gulp.task('sass', function () {
-  gulp.src('app/sass/**/*.scss')				// Get all SCSS files
-	.pipe(concat('sass.css'))					// concatenate the files
-    .pipe(sass().on('error', sass.logError))	// sass the css
-    .pipe(gulp.dest('app/css'))					// save the sass.css to css/
-    //.pipe(concat('sass.min.scss'))			// create another instance
-    //.pipe(mincss())							// minify it
-    //.pipe(gulp.dest('app/css'));				// save the minified file
+	gulp.src('app/sass/**/*.scss')				// Get all SCSS files
+		.pipe(concat('sass.css'))					// concatenate the files
+		.pipe(sass().on('error', sass.logError))	// sass the css
+		.pipe(gulp.dest('app/css'))					// save the sass.css to css/
+		//.pipe(concat('sass.min.scss'))			// create another instance
+		//.pipe(mincss())							// minify it
+		//.pipe(gulp.dest('app/css'));				// save the minified file
 });
