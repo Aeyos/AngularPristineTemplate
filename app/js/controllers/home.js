@@ -6,7 +6,7 @@ angular.module('home', [])
 			controller  : 'homeController',
 			resolve : {
 				asyncData : ['restApiService', function ($rest) {
-					// $rest.config({path:'http://localhost/wp-json/wp/v2/posts'});
+					$rest.config({path:'http://localhost/wp-json/wp/v2/posts'});
 					// * If the route is not configured, it'll be set by default to an empty string
 					// if a route has already been defined in another page scope, the path will be
 					// the one set on that page, the service does not auto-reset the path on route
