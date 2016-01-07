@@ -15,10 +15,6 @@ Array.prototype.forEach = function (fn) {
  * String, Javascript Extended Functions
  */
 
-/**
- * Capitalizes the first letter of the string
- * @return {[type]} [description]
- */
 String.prototype.capitalize = function (capitalize_all_letters) {
 	if(capitalize_all_letters)
 		return this.split(' ').forEach(function(v,i,a){a[i] = v.capitalize()}).join(' ');

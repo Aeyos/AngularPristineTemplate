@@ -1,3 +1,13 @@
-<div>
-	<div ng-repeat="prop in props" ng-click="expand(prop)">{{prop.name}} : {{prop.display}}</div>
+<div class="jsov">
+	<div class="line" ng-repeat="prop in props" ng-hide="prop.hidden">
+		<span class="indent" ng-bind-html="prop.indent"></span>
+		<button class="action-button" ng-click="expand(prop)" ng-show="prop.expandable">
+			<span ng-hide="prop.expanded" class="fa fa-plus"></span>
+			<span ng-show="prop.expanded" class="fa fa-minus"></span>
+		</button>
+		<span class="padding" ng-hide="prop.expandable"></span>
+		<span class="text">
+			<b>{{prop.name}}</b> : {{prop.display}}
+		</span>
+	</div>
 </div>

@@ -17,9 +17,12 @@ footer {
 	}
 	.container {
 		padding-top: 20px;
+		p:nth-child(1) {
+			margin-top: 12px;
+		}
 	}
 	.bigfoot {
-		min-height: 500px;
+		min-height: 200px;
 		border-radius: 0px;
 	}
 	.big-svg {

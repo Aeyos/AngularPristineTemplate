@@ -5,7 +5,7 @@
 | __Email__ | vinicius.m.negrao@gmail.com |
 | __License__ | Attribution 3.0 Unported (CC BY 3.0) |
 | __Profession__ | Web Designer, Web Developer, Game Designer, Game Programmer, Graphics Artist |
-| __Current Version__ | 1.0.5 |
+| __Current Version__ | 1.0.6 |
 
 # Changelog
 #### 1.0.0
@@ -45,6 +45,10 @@
 >REST API
 * REST API Service added with easy-to-setup routes and parameters
 * svgObject directive debug lines removed
+
+#### 1.0.6
+>JSOV
+* Javascript object viewer directive created
 
 # Installation
 

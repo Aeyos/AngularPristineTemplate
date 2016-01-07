@@ -1,3 +1,8 @@
+/* / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / */
+/* /                                                                       / */
+/* /    SVG OBJ                                                            / */
+/* /                                                                       / */
+/* / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / */
 .svg-obj-directive {
   display: inline-block; }
 
@@ -6,6 +11,45 @@ svg-object {
   svg-object svg {
     width: 100%;
     height: 100%; }
+
+/* / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / */
+/* /                                                                       / */
+/* /    JSOV                                                               / */
+/* /                                                                       / */
+/* / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / */
+.jsov button {
+  width: 18px;
+  height: 18px;
+  font-size: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -14px; }
+  .jsov button span {
+    position: relative;
+    left: -1px;
+    top: 1px; }
+
+.jsov .padding {
+  display: inline-block;
+  width: 20px; }
+
+.jsov .indent {
+  border-right: 1px solid black;
+  height: 32px;
+  overflow: hidden;
+  display: inline-block; }
+
+.jsov .line {
+  height: 32px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px; }
+
+.jsov .text {
+  display: inline-block;
+  position: relative;
+  top: -11px; }
 
 footer {
   color: #888; }
@@ -22,8 +66,10 @@ footer {
     stroke: #fff; }
   footer .container {
     padding-top: 20px; }
+    footer .container p:nth-child(1) {
+      margin-top: 12px; }
   footer .bigfoot {
-    min-height: 500px;
+    min-height: 200px;
     border-radius: 0px; }
   footer .big-svg {
     width: 92px;
